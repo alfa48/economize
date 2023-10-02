@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single"> 
+        <item 
+            android:id="@+id/nav_orc_list" 
+            android:icon="@drawable/ic_orc_list" 
+            android:title="@string/app_name_lista_orcamentos" />
+        <item 
+            android:id="@+id/nav_compra_list" 
+            android:icon="@drawable/ic_cart_variant" 
+            android:title="@string/app_name_lista_compras" />
+        <item
+            android:id="@+id/nav_plus_saldo"
+            android:icon="@drawable/ic_cash_plus"
+            android:title="@string/Mais_dinheiro" />
+
+        <item 
+            android:id="@+id/nav_chart_page" 
+            android:icon="@drawable/ic_chart_bar" 
+            android:title="@string/app_name_lista_estatistica" />
+		
+    </group>
+    <item android:title="Segurança">
+        <menu>
+            <item
+                android:id="@+id/nav_sobre"
+                android:icon="@drawable/ic_info"
+                android:title="@string/sobre" />
+            <item
+                android:id="@+id/nav_edit"
+                android:icon="@drawable/ic_key"
+                android:title="@string/alterar_dados" />
+            <item
+                android:id="@+id/nav_pulitica_privacidade"
+                android:icon="@drawable/ic_lock"
+                android:title="@string/pulitica_de_privacidade" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,132 @@
+<resources>
+    <string name="app_name">Economeze</string>
+    <string name="nome_completo">Android</string>
+    <string name="navigation_drawer_open">open</string>
+    <string name="navigation_drawer_close">close</string>
+    <string name="todo">TODO</string>
+    <string name="dica_de_poupanca">Dicas de poupança ...</string>
+    <string name="economize">Economize</string>
+    <string name="or_amento" translatable="false">Orçamento</string>
+    <string name="comprar" translatable="false">Comprar</string>
+    <string name="economize_mais_e_gaste_apenas_o_necess_rio" translatable="false">economize mais, gaste apenas o necessário</string>
+    <string name="conteudo_inf" translatable="false">Gegencia o teu dinheiro como um gestor económico profissional, cria e siga os teus orçamentos, registra as tuas compras, mostre ser disciplinado ao gerir o teu dinheiro.</string>
+    <string name="app_name_lista_compras" translatable="false">Compras</string>
+    <string name="app_name_lista_orcamentos" translatable="false">Orçamentos</string>
+    <string name="app_name_lista_estatistica">Estatística</string>
+    <string name="manter_me_conectado">manter-me conectado</string>
+    <string name="login">Login</string>
+    <string name="senha">senha</string>
+    <string name="email">email</string>
+    <string name="no_economize">no economize</string>
+    <string name="cadastro">Cadastro</string>
+    <string name="nome">nome</string>
+    <string name="confirma_senha">confirma senha</string>
+    <string name="mesada">mesada</string>
+    <string name="guardar">Guardar</string>
+    <string name="app_name_compra">Compra</string>
+    <string name="faca_seu_primeiro_orcamento_clicando_aqui">faça seu primeiro orçamento, clicando aquí</string>
+    <string name="faca_seu_primeiro_orcamento">faça seu primeiro orçamento</string>
+    <string name="quantidade">quantidade</string>
+    <string name="preco">preço</string>
+    <string name="descricao">descrição</string>
+    <string name="quantos_itens_compraste">quantos itens compraste?</string>
+    <string name="preencher_com_o_preco">preencher com o preço</string>
+    <string name="preencher_com_o_nome_do_produto">preencher com o nome do produto</string>
+    <string name="Erro_ao_acessar_os_dados">Erro ao acessar os dados</string>
+    <string name="dinheiro_insuficiente">Dinheiro INSUFICIENTE</string>
+    <string name="faca_primeiro_um_orcamento_para_a_categoria">faça primeiro um orçamento para a categoria: </string>
+    <string name="conprado">Comprado!</string>
+    <string name="preencher_este_campo">preencher este campo</string>
+    <string name="erro_ao_definir_orcamento">Erro ao definir orçamento</string>
+    <string name="para_este_mes_ja_existe_orcamento">"Para este mês, já existe Orçamento: "</string>
+    <string name="orcamento_feito">" Orçamento feito"</string>
+    <string name="dinheiro">dinheiro</string>
+    <string name="Preco">Preço</string>
+    <string name="Quantidade">Quantidade</string>
+    <string name="data">Data</string>
+    <string name="Dinheiro">Dinheiro</string>
+    <string name="gastei">Gastei</string>
+    <string name="mes">Mês</string>
+    <string name="inf">Info</string>
+    <string name="Mais_dinheiro">+ dinheiro</string>
+    <string name="adicionar_dinheiro_a_tua_carteira">+dinheiro a tua carteira</string>
+    <string name="desenvolvedores">DESENVOLVEDORES</string>
+    <string name="sair_do_economize">sair do economize?</string>
+    <string name="Dados_INCORRETO">Dados INCORRETO</string>
+    <string name="digite_a_senha">digite a senha</string>
+    <string name="seu_nome">seu nome</string>
+    <string name="cadastra_se_primeiro">cadastra-se primeiro</string>
+    <string name="usuario_logado">Usuário Logado</string>
+    <string name="usuario">usuário</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="adicionar">Adicionar</string>
+    <string name="sair_da_app">sair da app?</string>
+    <string name="dinheiro_add">dinheiro adiciondo</string>
+    <string name="err_add_dinher">erro ao adicionar dinheiro</string>
+    <string name="carteira">Carteira</string>
+    <string name="analise_dos_orcs_do_mes_actual">"Análise dos gastos do mês de  "</string>
+    <string name="carteira_atualizada">carteira atualizada</string>
+    <string name="quer_alter_dados">Quer mesmo alterar seus dados?</string>
+    <string name="dados_alter_sucesso">dados alterado com sucesso</string>
+    <string name="cancelar_interr">cancelar?</string>
+    <string name="nova_senha">nova senha</string>
+    <string name="campo_obrigatorio">* campo Obrigatório</string>
+    <string name="usuario_criado">usuário criado</string>
+    <string name="senhas_inconpativeis">senhas inconpatíveis</string>
+    <string name="editar">Editar</string>
+    <string name="app_name_politica_privacidade">Política de Privacidade</string>
+    <string name="pulitica_de_privacidade">política de privacidade</string>
+    <string name="deletar">deletar</string>
+    <string name="orc_deletado">orçamento deletado</string>
+    <string name="nao">Não</string>
+    <string name="sim">Sim</string>
+    <string name="alerta">Alerta</string>
+    <string name="deseja_deletar_o_orc">deseja deletar o orçamento?</string>
+    <string name="alterar_dados">alterar dados</string>
+    <string name="compras">compras</string>
+    <string name="categoria">"Categoria "</string>
+    <string name="compra_deletado">compra descatada</string>
+    <string name="dinheiro_reposto">dinheiro reposto</string>
+    <string name="deseja_descartar_o_compra">quer descartar compra?</string>
+    <string name="orcamento_atualizado">orcamento atualizado</string>
+    <string name="sobre">sobre</string>
+    <string name="definir_o_amento">Definir Oçamento</string>
+    <string name="nao_deletar_orc_em_uso">não pode deletar, orçamento em uso</string>
+    <string name="nao_pode_alterar_orc_em_uso">não pode alterar, orçamento em uso</string>
+    <string name="altera_user">alterar usuário</string>
+    <string name="limite_digitos">4 dígitos apenas</string>
+    <string-array name="categorias">
+        <item>Alimento</item>
+        <item>Roupa</item>
+        <item>Lazer</item>
+        <item>Transporte</item>
+        <item>Poupança</item>
+        <item>Donativos</item>
+        <item>Outros</item>
+    </string-array>
+    <string-array name="moedas">
+        <item>Euro</item>
+        <item>Dólar</item>
+        <item>Reais</item>
+        <item>Bitcon</item>
+        <item>Libra</item>
+        <item>Kwanza</item>
+        <item>Mitcaz</item>
+        <item>Iene</item>
+    </string-array>
+    <string-array name="meses">
+        <item>JANEIRO</item>
+        <item>FEVEREIRO</item>
+        <item>MARÇO</item>
+        <item>ABRIL</item>
+        <item>MAIO</item>
+        <item>JUNHO</item>
+        <item>JULHO</item>
+        <item>AGOSTO</item>
+        <item>SETEMBRO</item>
+        <item>OUTUBRO</item>
+        <item>NOVEMBRO</item>
+        <item>DEZEMBRO</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ao.znt.econ">
+<uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Econ">
+        <activity android:name=".PoliticaDePrivacidadeActivity"
+            android:label="@string/app_name_politica_privacidade"
+            android:parentActivityName=".MainActivity"></activity>
+        <activity
+            android:name=".inicio.CadastroActivity"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="locked" />
+        <activity
+            android:name=".ui.Estatistica"
+            android:label="@string/app_name_lista_estatistica"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="locked" />
+        <activity
+            android:name=".MainActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.Compra"
+            android:label="@string/app_name_compra"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.OrcList"
+            android:label="@string/app_name_lista_orcamentos"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="locked" />
+        <activity
+            android:name=".ui.CompraList"
+            android:label="@string/app_name_lista_compras"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="locked" />
+        <activity
+            android:name=".ui.Orcamento"
+            android:label="@string/or_amento"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".inicio.Login"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

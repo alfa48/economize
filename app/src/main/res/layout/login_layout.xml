@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:id="@+id/scrowView_login"
+	android:layout_gravity="top|center"
+	android:layout_height="match_parent">
+
+	<LinearLayout
+		android:layout_gravity="center"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:gravity="center_horizontal"
+		android:orientation="vertical">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center_horizontal"
+		android:orientation="vertical">
+
+		<ImageView
+			android:layout_width="200dp"
+			android:layout_height="140dp"
+			android:layout_gravity="center"
+			android:background="@drawable/ic_finance"/>
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center_horizontal"
+		android:layout_marginBottom="5dp"
+		android:orientation="horizontal">
+
+	<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/login"
+			android:textColor="@color/colorPrimary"
+			android:textSize="35sp"
+			android:textStyle="bold"/>
+		<TextView
+			android:layout_marginLeft="5dp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/no_economize"
+			android:textColor="@color/segundaria"
+			android:textSize="15sp"
+			android:textStyle="bold"
+			android:typeface="serif"/>
+	</LinearLayout>
+	</LinearLayout>
+
+			<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginStart="30dp"
+			android:layout_marginTop="3dp"
+			android:layout_marginEnd="30dp"
+			android:background="@drawable/shape_edit"
+			android:orientation="vertical">
+
+			<LinearLayout
+				android:focusableInTouchMode="true"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="horizontal"
+				android:padding="13sp">
+
+				<ImageView
+					android:layout_width="25dp"
+					android:layout_height="25dp"
+					android:layout_gravity="center"
+					android:background="@drawable/ic_account"/>
+
+				<EditText
+					android:nextFocusUp="@id/login_layoutEditTextEmail"
+					android:nextFocusLeft="@id/login_layoutEditTextEmail"
+					android:layout_width="match_parent"
+					android:layout_height="40dp"
+					android:layout_marginStart="10dp"
+					android:id="@+id/login_layoutEditTextEmail"
+					android:background="@null"
+					android:hint="@string/usuario"
+					android:inputType="text"/>
+
+			</LinearLayout>
+
+			<View
+				android:layout_width="match_parent"
+				android:layout_height="0.5dp"
+				android:layout_marginStart="40dp"
+				android:background="@color/colorPrimary"/>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="horizontal"
+				android:padding="13sp">
+
+				<ImageView
+					android:layout_width="25dp"
+					android:layout_height="25dp"
+					android:layout_gravity="center"
+					android:background="@drawable/ic_lock"/>
+
+				<EditText
+					android:layout_width="match_parent"
+					android:layout_height="40dp"
+					android:layout_marginStart="10dp"
+					android:background="@null"
+					android:hint="@string/senha"
+					android:id="@+id/login_layoutEditTextPassWord"
+					android:inputType="numberPassword"/>
+
+			</LinearLayout>
+
+
+		</LinearLayout>
+
+		<RelativeLayout
+			android:layout_width="match_parent"
+			android:layout_height="50dp"
+			android:layout_marginHorizontal="28dp"
+			android:layout_marginTop="10dp"
+			android:background="@drawable/border"
+			android:clickable="true"
+			android:focusable="true"
+			android:foreground="?attr/selectableItemBackgroundBorderless"
+			android:id="@+id/login_layoutRelativeLayoutBtn">
+
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:gravity="center"
+				android:text="@string/login"
+				android:textColor="@color/colorWhite"
+				android:textSize="16sp"
+				android:textStyle="bold"/>
+
+		</RelativeLayout>
+
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="match_parent"
+			android:gravity="center"
+			android:layout_marginTop="5dp"
+			android:layout_height="wrap_content">
+
+			<LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/manter_me_conectado"
+                    android:textColor="@color/segundaria"
+                    android:textSize="15sp"
+					android:typeface="serif"
+                    android:textStyle="bold"/>
+
+                <CheckBox
+                    android:id="@+id/checkboxLembrarDaSenha"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+</ScrollView>

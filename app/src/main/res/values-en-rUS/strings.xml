@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Economeze</string>
+    <string name="nome_completo">Android</string>
+    <string name="navigation_drawer_open">open</string>
+    <string name="navigation_drawer_close">close</string>
+    <string name="todo">TODO</string>
+    <string name="dica_de_poupanca">Savings tips…</string>
+    <string name="economize">Economize</string>
+    <string name="or_amento">Budget</string>
+    <string name="comprar">Buy</string>
+    <string name="economize_mais_e_gaste_apenas_o_necess_rio">save more, spend only the need</string>
+    <string name="conteudo_inf">Gegencia your money as a professional economic manager, creates and follow your budgets, record your purchases, show being disciplined by managing your money.</string>
+    <string name="app_name_lista_compras">Shopping</string>
+    <string name="app_name_lista_orcamentos">Budgets</string>
+    <string name="app_name_lista_estatistica">Statistical</string>
+    <string name="manter_me_conectado">keep me connected</string>
+    <string name="login">Login</string>
+    <string name="senha">password</string>
+    <string name="email">email</string>
+    <string name="no_economize">in the economy</string>
+    <string name="cadastro">Wallet</string>
+    <string name="nome">name</string>
+    <string name="confirma_senha">confirm password</string>
+    <string name="mesada">allowance</string>
+    <string name="guardar">Save</string>
+    <string name="app_name_compra">Purchase</string>
+    <string name="faca_seu_primeiro_orcamento_clicando_aqui">make your first budget by clicking here</string>
+    <string name="faca_seu_primeiro_orcamento">make your first budget</string>
+    <string name="quantidade">quantity</string>
+    <string name="preco">price</string>
+    <string name="descricao">description</string>
+    <string name="quantos_itens_compraste">how many items did you buy?</string>
+    <string name="preencher_com_o_preco">fill with the price of the item</string>
+    <string name="preencher_com_o_nome_do_produto">fill with the name of the product</string>
+    <string name="Erro_ao_acessar_os_dados">Error accessing the data</string>
+    <string name="dinheiro_insuficiente">Insufficient money</string>
+    <string name="faca_primeiro_um_orcamento_para_a_categoria">first a quote for the category:</string>
+    <string name="conprado">Bought!</string>
+    <string name="preencher_este_campo">fill in this field</string>
+    <string name="erro_ao_definir_orcamento">Error setting budget</string>
+    <string name="para_este_mes_ja_existe_orcamento">"For this month, there is already a budget: "</string>
+    <string name="orcamento_feito">" Budget done"</string>
+    <string name="dinheiro">money</string>
+    <string name="Preco">Price</string>
+    <string name="Quantidade">Quantity</string>
+    <string name="data">Date</string>
+    <string name="Dinheiro">Money</string>
+    <string name="gastei">Spent</string>
+    <string name="mes">Month</string>
+    <string name="inf">Info</string>
+    <string name="Mais_dinheiro">+ money</string>
+    <string name="adicionar_dinheiro_a_tua_carteira">+ money your wallet</string>
+    <string name="desenvolvedores">DEVELOPERS</string>
+    <string name="sair_do_economize">leave?</string>
+    <string name="Dados_INCORRETO">Incorrect data</string>
+    <string name="digite_a_senha">enter the password</string>
+    <string name="seu_nome">your name</string>
+    <string name="cadastra_se_primeiro">creates a wallet first</string>
+    <string name="usuario_logado">Welcome</string>
+    <string name="usuario">user</string>
+    <string name="cancelar">Cancel</string>
+    <string name="adicionar">To add</string>
+    <string name="sair_da_app">exit the app?</string>
+    <string name="dinheiro_add">addiod money</string>
+    <string name="err_add_dinher">error adding money</string>
+    <string name="carteira">Wallet</string>
+    <string name="analise_dos_orcs_do_mes_actual">"Analysis of the expenses of the month of "</string>
+    <string name="carteira_atualizada">updated wallet</string>
+    <string name="quer_alter_dados">Do you really want to change your data?</string>
+    <string name="dados_alter_sucesso">data changed successfully</string>
+    <string name="cancelar_interr">cancel?</string>
+    <string name="nova_senha">new password</string>
+    <string name="campo_obrigatorio">* Mandatory field</string>
+    <string name="usuario_criado">full wallet</string>
+    <string name="senhas_inconpativeis">different passwords</string>
+    <string name="editar">Edit</string>
+    <string name="app_name_politica_privacidade">Privacy Policy</string>
+    <string name="pulitica_de_privacidade">privacy policy</string>
+    <string name="deletar">delete</string>
+    <string name="orc_deletado">deleted budget</string>
+    <string name="nao">Não</string>
+    <string name="sim">Sim</string>
+    <string name="alerta">Alert</string>
+    <string name="deseja_deletar_o_orc">do you want to delete the budget?</string>
+    <string name="alterar_dados">change data</string>
+    <string name="compras">shopping</string>
+    <string name="categoria">"Category "</string>
+    <string name="compra_deletado">discarded purchase</string>
+    <string name="dinheiro_reposto">money returned</string>
+    <string name="deseja_descartar_o_compra">want to discard purchase?</string>
+    <string name="orcamento_atualizado">updated budget</string>
+    <string name="sobre">about</string>
+    <string name="definir_o_amento">Define Budget</string>
+    <string name="nao_deletar_orc_em_uso">can not delete, budget is being used</string>
+    <string name="nao_pode_alterar_orc_em_uso">can not change, budget is being used</string>
+    <string name="altera_user">change user</string>
+    <string name="limite_digitos">4 digits only</string>
+
+    <string-array name="categorias">
+        <item>Food</item>
+        <item>Clothing</item>
+        <item>Leisure</item>
+        <item>Transportation</item>
+        <item>Savings</item>
+        <item>Donations</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="moedas">
+        <item>euro</item>
+        <item>dollar</item>
+        <item>real</item>
+        <item>bitcon</item>
+        <item>pound</item>
+        <item>kwanza</item>
+        <item>Mitcaz</item>
+        <item>yen</item>
+    </string-array>
+    <string-array name="meses">
+        <item>JANUARY</item>
+        <item>FEBRUARY</item>
+        <item>MARCH</item>
+        <item>APRIL</item>
+        <item>MAY</item>
+        <item>JUNE</item>
+        <item>JULY</item>
+        <item>AUGUST</item>
+        <item>SEPTEMBER</item>
+        <item>OCTOBER</item>
+        <item>NOVEMBER</item>
+        <item>DECEMBER</item>
+    </string-array>
+
+</resources>

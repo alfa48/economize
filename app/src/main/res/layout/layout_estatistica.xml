@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/fundo_grey"
+    android:layout_height="match_parent">
+
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            android:id="@+id/contentmainAppBarLayout1">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbarEstatistica"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+
+        </android.support.design.widget.AppBarLayout>
+
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="7"
+            android:id="@+id/cardView"
+            card_view:cardCornerRadius="6dp"
+            card_view:cardElevation="3dp"
+            card_view:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginHorizontal="12dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:textAppearance="@style/TextAppearance.AppCompat.Large.Inverse"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/economize"
+                        android:textSize="13sp"
+                        android:textStyle="bold"
+                        android:id="@+id/text_estatistica_descricao"
+                        android:textColor="@color/colorPrimary"/>
+
+                </LinearLayout>
+
+
+                <FrameLayout
+                    android:layout_weight="8"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/md_black_1000">
+
+                    <lecho.lib.hellocharts.view.ColumnChartView
+                        android:id="@+id/chart"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+                </FrameLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+    <LinearLayout
+        android:layout_weight="3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+    <include
+        layout="@layout/home_layout_horizontal"/>
+
+</LinearLayout>
+
+    <RelativeLayout
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_estatistica_add_pri_orc"
+            android:onClick="primeiroOrcamentoEstatistica"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="5dp"
+            android:layout_alignParentRight="true"
+            app:layout_anchorGravity="bottom|right"
+            app:srcCompat="@drawable/ic_plus"/>
+
+        <TextView
+            android:layout_below="@+id/fab_estatistica_add_pri_orc"
+            android:layout_alignRight="@+id/fab_estatistica_add_pri_orc"
+            android:layout_gravity="right"
+            android:textSize="14dp"
+            android:textColor="@color/colorGray"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"
+            android:text="faça teu primeiro orçamento, clicando aquí"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+
+</LinearLayout>
+
